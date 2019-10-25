@@ -7,9 +7,6 @@ defmodule TextClient.Interact do
     |> Player.play()
   end
 
-  def play(state) do
-  end
-
   defp setup_state(game) do
     %State{
       game_service: game,
